@@ -1,35 +1,61 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #000000;
+  background-color: #191414;
   max-width: 500px;
   margin: 0px auto;
 }
 
 h1{
-  color: rgb(157, 104, 207);
+  color: #1DB954;
+  text-align: center;
 }
 
 input{
   height: 40px;
-  border: 2px solid rgb(157, 104, 207);
+  border: 2px solid #1DB954;
   badkground-color: #333;
-  color: #eee;
+  color: #191414;
   outline: none;
-  width: 60%;
+  width: 78%;
+  font-size: medium;
 }
 
 button{
   border: none;
   height: 44px;
-  background-color: rgb(157, 104, 207);
+  background-color: #1DB954;
   cursor: pointer;
-  color: #fff;
+  color: #FFFFFF;
+  width: 97px;
+  font-size: medium;
 }
 
 button:hover{
-  background-color: rgb(104, 57, 153);
+  background-color: #1ed760;
 }
 
 button:active{
   transform: scale(0.98);
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+  background-color: #1DB954;
+  color: #FFFFFF;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: #FFFFFF;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span{
+  cursor: pointer;
 }
